@@ -24,9 +24,9 @@ struct RollingHash {
         u64 bu = b >> 31;
         u64 bd = b & mask31;
         u64 mid = ad * bu + au * bd;
-        u64 midu = mid >> 31;
+        u64 midu = mid >> 30;
         u64 midd = mid & mask30;
-        return au * bu + midu + (midd << 31) + ad * bd;
+        return au * bu * 2 + midu + (midd << 31) + ad * bd;
     }
 
     RollingHash(std::string& s) {
