@@ -1,3 +1,6 @@
+#include <cassert>
+#include <vector>
+
 template<class T, T (*op) (T, T), T (*e)()>
 struct SegmentTree {
     private:

@@ -1,3 +1,5 @@
+#include <vector>
+
 template <class T, T (*op)(T, T), T (*e)(), class U, T (*mapping)(T, U),
           U (*composition)(U, U), U (*id)()>
 struct LazySegTree {

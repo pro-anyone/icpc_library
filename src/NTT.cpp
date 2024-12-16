@@ -77,6 +77,8 @@ struct ModInt {
     static constexpr int get_mod() { return mod; }
 };
 
+#include <vector>
+
 template <class Mint>
 void ntt998(vector<Mint>& a, bool inv = false) {
     const int MOD = 998244353;

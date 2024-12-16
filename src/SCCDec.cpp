@@ -1,3 +1,5 @@
+#include <vector>
+
 struct SCC {
     int n;
     vector<vector<int>> g, rev, scc_graph;

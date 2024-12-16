@@ -1,4 +1,5 @@
 #include <complex>
+#include <vector>
 
 using C = complex<double>;
 using namespace std;

@@ -1,3 +1,5 @@
+#include <vector>
+
 vector<int> Z_algorithm(string s){ // s の末尾に番兵を入れる！
     vector<int> z(s.size());
     z[0] = s.size();

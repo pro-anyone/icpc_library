@@ -1,3 +1,4 @@
+#include <vector>
 template<class T>
 struct FenwickTree{
     int n;

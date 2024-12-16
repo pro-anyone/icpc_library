@@ -1,3 +1,6 @@
+#include <vector>
+#include <utility>
+
 struct HLD{
     int n;
     vector<vector<int>> g;
